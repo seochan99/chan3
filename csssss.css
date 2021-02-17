@@ -50,6 +50,27 @@ font-family: 'Montserrat', sans-serif;
     z-index: -1;
     animation: fadeIn .5s linear;
 }
+.js-form input{
+    border: none;
+    opacity: 0.5;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    font-weight: bold;
+}
+.js-form input::placeholder{
+    color:black;
+}
+.js-toDoForm input{
+    border: none;
+    opacity: 0.5;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    font-weight: bold;
+}
+.js-toDoForm input::placeholder{
+    color : black;
+}
+js-toDoForm input:focus{
+    border-color: rgba(0,0,0,0.6);
+}
 
 button{
     background:#676dc9;
@@ -121,3 +142,6 @@ ul li.checked::before {
     height: 15px;
     width: 7px;
   }
+  input:focus{
+    outline:none;
+}
