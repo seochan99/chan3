@@ -27,7 +27,7 @@
     background: transparent;
     border-radius: 10px;
     color:#fff;
-    font-size: 11px;
+    font-size: 9px;
     font-weight: bold;
 }
 .todoSubmit{
@@ -36,5 +36,5 @@
     border-radius: 10px;
     color:#fff;
     font-weight: bold;
-    font-size: 11px;
+    font-size: 9px;
 }
