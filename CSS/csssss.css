@@ -56,7 +56,11 @@ font-family: 'Montserrat', sans-serif;
 }
 footer{
     font-size: 5px;
-    margin-top: 125px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+	padding: 15px 0;
 }
 
 
