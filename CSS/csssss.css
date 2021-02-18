@@ -54,6 +54,10 @@ font-family: 'Montserrat', sans-serif;
     z-index: -1;
     animation: fadeIn .5s linear;
 }
+footer{
+    font-size: 5px;
+    margin-top: 125px;
+}
 
 
 button{
