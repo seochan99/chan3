@@ -6,9 +6,12 @@ body{
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
 }
+.js-clock h4{
+    font-family: 'Open Sans', sans-serif;
+
+}
 .js-clock h1{
     font-size: 3em;
-    font-family: 'Open Sans', sans-serif;
 }
 .js-weather{
     font-weight: bold;
@@ -68,7 +71,7 @@ font-family: 'Montserrat', sans-serif;
 .js-toDoForm input::placeholder{
     color : black;
 }
-js-toDoForm input:focus{
+.js-toDoForm input:focus{
     border-color: rgba(0,0,0,0.6);
 }
 
