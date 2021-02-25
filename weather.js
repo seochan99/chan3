@@ -1,5 +1,5 @@
 const weathert = document.querySelector(".js-weather");
-const weatherIcon = document.querySelector(".weather-icon");
+// const weatherIcon = document.querySelector(".weather-icon");
 
 const API_KEY = "d932ef89f1585a36bfea388c8e5e608f";
 
@@ -13,9 +13,9 @@ fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lng}&app
     const place = json.name;
     var weathers = json.weather[0].main;
     var des = json.weather[0].description
-    var iconcode = json.weather[0].icon;
-    var iconurl = "http://openweathermap.org/img/w/" + iconcode + ".png";
-    $("#wicon").attr('src', iconurl);
+    // var iconcode = json.weather[0].icon;
+    // var iconurl = "http://openweathermap.org/img/w/" + iconcode + ".png";
+    // $("#wicon").attr('src', iconurl);
     weathert.innerText=`${weathers}/${des}\n ${temperature}°C @ ${place}`;
 })
 
