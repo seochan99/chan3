@@ -1,0 +1,79 @@
+@import "Todo.css";
+@import "clock.css";
+@import "background.css";
+
+body{
+    background-color :#62729c;
+    color:whitesmoke;
+    text-align: center;
+    margin-top: 10%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+.js-weather{
+    font-weight: bold;
+}
+
+.btn{
+    background-color: transparent;
+}
+.clicked{
+color : #1fcdda;
+}
+
+.form, 
+.greetings {
+    display: none;
+}
+.showing{
+    display:block;
+}
+
+
+
+
+footer{
+    font-size: 7px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+	padding: 15px 0;
+}
+
+
+
+.search-bar{
+    width: 100px;
+}
+  
+  li {
+      font-size: 0.5em;
+      text-align: center;
+      right: 0px;
+    margin-right: 6em;
+
+        list-style: none;
+    }
+
+ul li.checked {
+    background: #888;
+    color: #fff;
+    text-decoration: line-through;
+}
+
+ul li.checked::before {
+    content: '';
+    position: absolute;
+    border-color: #fff;
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    top: 10px;
+    left: 16px;
+    transform: rotate(45deg);
+    height: 15px;
+    width: 7px;
+  }
+  input:focus{
+    outline:none;
+}
